@@ -1013,7 +1013,7 @@ As some of the examples here show, saving results to the database can be a compl
 - Determines what order to insert, update, and delete entities so that database constraints are not violated
 - Ensures database generated values are returned efficiently and propagated back into entities
 - Automatically sets foreign key values using the values generated for primary keys
-- Detect concurrency conflicts
+- Detects concurrency conflicts
 
 In addition, different database systems require different SQL for many of these cases. The EF Core database provider works with EF Core to ensure correct and efficient commands are sent for each case.
 
